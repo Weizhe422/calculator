@@ -1,0 +1,36 @@
+# Qt-specific files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.autosave
+
+# Build directories
+build/
+build-*/
+debug/
+release/
+
+# C++ compiled files
+*.o
+*.obj
+*.lo
+*.slo
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Temporary files
+*~
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
